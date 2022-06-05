@@ -1,0 +1,5 @@
+project: bento4
+target: mp4dump
+
+cmds:
+  - cmd: /opt/bento4/bin/mp4dump @@
