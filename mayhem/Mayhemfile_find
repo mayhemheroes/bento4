@@ -1,0 +1,6 @@
+project: bento4
+target: find
+
+cmds:
+  - cmd: /fuzz_Find
+    libfuzzer: true
