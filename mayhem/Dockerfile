@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 # Setup environment variables
-ENV BENTO4_VERSION 1.6.0-639
+ENV BENTO4_VERSION=1.6.0-639
 
 # Install Dependencies
 RUN apt-get update
