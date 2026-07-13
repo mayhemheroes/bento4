@@ -1,0 +1,6 @@
+project: bento4
+target: mp4dump
+
+cmds:
+  - cmd: /mayhem/mp4dump
+    libfuzzer: true
