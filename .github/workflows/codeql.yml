@@ -1,12 +1,9 @@
 name: "CodeQL"
 
+# Archived integration branch — all automatic triggers removed so this workflow can never
+# re-fire. Manual-only (workflow_dispatch).
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-  schedule:
-    - cron: "58 23 * * 4"
+  workflow_dispatch:
 
 jobs:
   analyze:
